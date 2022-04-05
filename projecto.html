@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculos salariales</title>
+    <link rel="stylesheet" href="./projecto.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Que puedes hacer con tu sueldo?</h1>
+    </header>   
+    <div class="sections">
+    <section class="container">
+    <h2>Calcula tu capacidad de endeudamiento</h2>
+     <form class="formEndeuda" action="">
+         <label for="salary">Ingresa el total de tus ingresos mensuales</label>
+         <input type="number" id="salary">
+         <button id="buttonCall" type="button"  onclick="calcularEndeudamiento()" >Caulcular</button>
+         <p id="answer"></p>
+     </form>
+    </section>
+    <section class="container">
+        <h2>Calcula el impuesto sobre la renta a pagar</h2>
+         <form class="formEndeuda" action="">
+             <label for="salaryYearly">Ingresa el total de tus ingresos Anuales</label>
+             <input type="number" id="salaryYearly">
+             <button id="buttonCall" type="button"  onclick="calcularImpuesto()" >Caulcular</button>
+             <p id="answerTaxes"></p>
+         </form>
+        </section>
+    </div>
+    <script src="./projecto.js"></script>
+</body>
+</html>

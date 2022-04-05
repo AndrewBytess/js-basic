@@ -1,0 +1,55 @@
+// salarios
+
+const personas = [];
+personas.push({
+    nombre:"Alex",
+    salario:1300,
+});
+personas.push({
+    nombre:"Nora",
+    salario:900,
+});
+personas.push({
+    nombre:"Martin",
+    salario:1100,
+});
+personas.push({
+    nombre:"Tomas",
+    salario:1500,
+});
+personas.push({
+    nombre:"Kevin",
+    salario:1800,
+});
+personas.push({
+    nombre:"Andres",
+    salario:2000,
+});
+personas.push({
+    nombre:"Nate",
+    salario:800,
+});
+personas.push({
+    nombre:"Karla",
+    salario:1050,
+});
+personas.push({
+    nombre:"Mariela",
+    salario:1950,
+});
+personas.push({
+    nombre:"Anna",
+    salario:1600,
+});
+personas.push({
+    nombre:"Beatris",
+    salario:1400,
+});
+personas.push({
+    nombre:"Desire",
+    salario:1200,
+});
+personas.push({
+    nombre:"Deibis",
+    salario:1000,
+});
